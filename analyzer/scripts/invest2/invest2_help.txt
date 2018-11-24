@@ -1,0 +1,31 @@
+'|'
+mouse_left_click : Show local High/Low; set depth in scripts/invest2/invest2.cfg, row search_extreme_depth:
+ 
+SPACE : Default settings
+ 
+'h' : Turn on/off help (ESCAPE also exits help)
+'i' : Turn on/off Ichimoku (set values in scripts/invest2/invest2.cfg)
+'f' + mouse_left_click : Fibonacci time
+'s' : Turn on/off SMA_MIN_MAX
+'l' : Switch between candle/linear chart
+'a' : Turn on/off ATR_SMATR
+'m' : Turn on/off MINIMAX
+'r' : Reverse chart
+ 
+Arrows : UP: zoom in,   DOWN: zoom out,  RIGHT: move right,  LEFT: move left
+        LSHIFT: speed up
+        RSHIFT: max speed
+ 
+LCTRL + 'q' : Quit program
+LCTRL + 'l' : Load chart from 'scripts/invest2/input/'
+            LSHIFT: leave last chart in background
+LCTRL + 's' : Save chart in 'scripts/invest2/output/ + $sfile_input + .bmp'
+LCTRL + 'r' : Reload config
+LCTRL + 'g' : Switch logarithmic/linear chart
+ 
+ 
+------------------ buttons ----------------------
+ 
+load/save analysis : load/save analysis in file
+              <hint> click the name of the current or previously loaded chart to copy its value
+reload config : read default settings from invest2.cfg

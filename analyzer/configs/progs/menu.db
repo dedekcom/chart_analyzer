@@ -1,0 +1,14 @@
+<doc> 
+	<size>  200 30 
+	</size>
+	<color>  5 10 210 200 
+	</color>
+	<border>  2
+	</border>
+	<menu>  300 150 bottom 
+		<asmgame> ASM_Game no no </asmgame>
+		<pyza> Pyza no no </pyza>
+		<ptbuilder> Path_Builder no no </ptbuilder>
+		<exit> Exit no no </exit>
+	</menu>
+</doc>

@@ -1,0 +1,226 @@
+bool: 	0 - false
+		1 - true
+		
+object:	anima
+	string getname()
+	create
+	int nofactions()
+	string actionname()
+	int actionnr(-1)		// current action
+	int actionnr(string actionname)
+	int nofframes(-1)
+	int nofframes(int actionnr)
+	int nofframes(string actionname)
+	string framename()
+	int framenr()
+	int isplaying()
+	load(string filename)
+	int lodx()
+	int lody()	
+	play(-1)		// current action
+	play(int actionnr)
+	play(string actionname)
+	addmethod(string within_anima,string name_in_class)
+	setdelay(int delay)
+	setframe(-1,int nofframe)	// current action
+	setframe(int actionnr,int nofframe)
+	setframe(string actionname,int nofframe)
+	stop(bool play_finish)
+	setpos(int x ,int y)
+	int getpx()
+	int getpy()
+	int getcx()
+	int getcy()
+	int getex()
+	int getey()
+	setz(int priority)
+	int getz()
+	int getdelay()
+	int isin(int x, int y, int ignore_visible, int ignore_alpha)
+	copy(string animation_name)
+	move(int x, int y)
+
+object:	gameapi	
+	play(string game_name)
+	pause()
+	resume()
+	exit()
+	string getgamename()
+	setmusicvol(int vol)
+	int getmusicvol()
+	playmusic(string filename)
+	stopmusic()
+	
+object:	int
+	string getname()
+	load(string filename, int initial_val)
+	save(string filename)
+	int abs()
+	int sqrt()
+	print()
+	rand(int range)
+	int length(int lenx, int leny)
+	
+object:	real
+	string getname()
+	load(string filename, real default_val)
+	save(string filename)
+	real abs()
+	real sqrt()
+	print()
+	real length(reak lenx, real leny)
+	
+object:	string
+	string getname()
+	load(string filename, string default_val)
+	save(string filename)
+	string getb(int start, int length)
+	print()
+	sub()	?
+	string gete(int start, int length)
+	int length()
+	clear()
+	contains(string sign)
+	change(string signfrom, string signto)
+	int find(string sign)
+	
+object:	engine
+	string getimg(int x, int y, int igvisible, int igalpha, int prior1, int prior2)
+	removeimg(string imgname)
+	removesnd(string sndname)
+	print(string str)
+	refresh()
+	sortimages()
+	
+object:	mouse
+	int getpx()
+	int getpy()
+	show()
+	hide()
+	setpos(int x, int y)
+	setcursor(string imgname)
+	
+object:	keyboard
+	iskey(string key)
+	iskeydown(string key)
+	iskeydown(-1)	// any
+	autorepeat(bool)
+	
+object:	img
+	getname
+	load
+	lodx
+	lody
+	addmethod
+	setpos
+	getpx
+	getpy
+	getcx
+	getcy
+	getex
+	getey
+	setz
+	getz
+	isin	
+	copy	
+	move	
+	show	
+	hide	
+
+object:	snd
+	getname	
+	load
+	play
+	stop
+	addmethod
+	isplaying
+	pause
+	resume
+	loop
+	
+object:	vector
+	getname	
+	get
+	set
+	add
+	find
+	contains
+	type
+	remove
+	size
+	removeat
+	sort
+	load
+	save
+	free	
+	
+object:	menu
+	getname
+	hide
+	show
+	on
+	isvissub
+	getid
+	getcheckedtxt
+	getcheckedname
+	isin
+	setz
+	isvisible
+	move
+	next
+	prev
+	getz
+	addback
+	addfront
+	rewind
+	
+object:	text
+	getname
+	set
+	isin
+	letall
+	letalf
+	letcyph
+	lock
+	unlock
+	unlocked
+	setz
+	getz
+	setpos
+	getpx
+	getpy
+	getcx
+	getcy
+	getex
+	getey		
+	setbkg
+	copybkg	
+	show	
+	hide	
+	setborders
+	
+object:	timer
+	getname
+	delay
+	isplaying
+	pause
+	play
+	resume
+	settick
+	stop
+	addmethod
+	
+object:	db
+	getname
+	add
+	get
+	set
+	getrowsno
+	getcolsno
+	free
+	load
+	save
+	print
+	setseparator
+	setsize
+	

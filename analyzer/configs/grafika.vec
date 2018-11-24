@@ -1,0 +1,12 @@
+5
+800
+600
+32
+0
+1
+
+	800- res x
+	600- res y
+	32- bpp
+	0- fullscreen off, 1- fullscreenon
+	0- (0- nieautomatycznie, 1-automatycznie)

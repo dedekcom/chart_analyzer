@@ -1,0 +1,26 @@
+<doc> 
+	<size>  100 30 
+	</size>
+	<color>  255 10 10 200 
+	</color>
+	<border>  2
+	</border>
+	<subbutton> 160 30 </subbutton>
+	<menu>  0 0 right
+		<game> Build bottom bottom
+			<loadpt> Load_Path(ctrl-o) no no </loadpt>
+			<savept> Save_Path(ctrl-s) no no </savept>
+			<addrem> Vertex/Edge(v) no no </addrem>
+			<zoom> Zoom(z) no no </zoom>
+			<setpath> Set_Path(p) no no </setpath>
+			<loadbg> Load_Bkg(ctrl-l) no no </loadbg>
+			<initpos> Initial_Pos(ctrl-p) </initpos>
+			<exit> Exit(ctrl-q) no no </exit>
+		</game>
+		<anima> Animation bottom bottom
+			<loadan> Load(ctrl-k) no no </loadan>
+			<closean> Close no no </closean>
+		</anima>
+		<help> Help no no </help>
+	</menu>
+</doc>

@@ -1,0 +1,16 @@
+mode : 1920 x 1080
+mode : 1680 x 1050
+mode : 1280 x 1024
+mode : 1280 x 960
+mode : 1152 x 864
+mode : 1024 x 768
+mode : 832 x 624
+mode : 800 x 600
+mode : 720 x 400
+mode : 640 x 480
+InitScreen: 1024 x 768
+
+stack pointer: -1
+spec stack: -1
+locals : -1
+koniec 

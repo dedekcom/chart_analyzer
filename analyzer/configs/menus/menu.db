@@ -1,0 +1,15 @@
+<doc> 
+	<size>  w h << main button >> 
+	</size>
+	<color>  r g b a  << main and subbutton >>
+	</color>
+	<border>  w
+	</border>
+	<subbutton> w h
+	</subbutton>
+	<menu>  x y menu_dir
+		<submenu1> submenu_name dir_start submenu_dir 
+		</submenu1>
+		etc
+	</menu>
+</doc>

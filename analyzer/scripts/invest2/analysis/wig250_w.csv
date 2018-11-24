@@ -1,0 +1,7 @@
+' '
+depth 932 
+chartstart 0 
+line 0 
+ichimoku 0 9 26 26 26 52 
+smatr 0 15 10 
+atr 1 15 40 

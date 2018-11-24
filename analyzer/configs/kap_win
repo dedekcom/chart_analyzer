@@ -1,0 +1,8 @@
+<conf>
+	<screen> 1024 768 32 0 1 </screen>
+	<font> configs/fonts/normal.ttf 14 250 250 250 </font>
+	<<font> configs/fonts/Vera.ttf 12 250 250 250 </font>>
+	<activegame>asmgame</activegame>
+	<<activegame>pyza</activegame>>
+	<<activegame>ptbuilder</activegame>>
+</conf>
