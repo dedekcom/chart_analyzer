@@ -1,1 +1,1 @@
-# chart_analyzer
+Program for analyzing charts.
