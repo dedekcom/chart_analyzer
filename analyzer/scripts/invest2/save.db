@@ -1,5 +1,5 @@
 ' '
-input_chart adline.csv 
+input_chart swig80_d.csv 
 last_input_0 gpwall.csv 
 last_input_1 gpwall_m.csv 
 last_input_2 adline.csv 

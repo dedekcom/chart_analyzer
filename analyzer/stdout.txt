@@ -1,13 +1,25 @@
 mode : 1920 x 1080
 mode : 1680 x 1050
+mode : 1600 x 900
+mode : 1440 x 900
+mode : 1400 x 1050
+mode : 1366 x 768
+mode : 1360 x 768
 mode : 1280 x 1024
 mode : 1280 x 960
+mode : 1280 x 800
+mode : 1280 x 768
+mode : 1280 x 720
+mode : 1280 x 600
 mode : 1152 x 864
 mode : 1024 x 768
-mode : 832 x 624
 mode : 800 x 600
-mode : 720 x 400
 mode : 640 x 480
+mode : 640 x 400
+mode : 512 x 384
+mode : 400 x 300
+mode : 320 x 240
+mode : 320 x 200
 InitScreen: 1024 x 768
 
 stack pointer: -1
